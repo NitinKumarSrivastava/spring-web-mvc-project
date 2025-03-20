@@ -15,8 +15,8 @@ public class ModelExplainController {
 	public String home(Model model) {
 		
 		System.out.println("This is ModelExplainController.");
-		model.addAttribute("name", "Durgesh Tiwari");
-		model.addAttribute("id", 1421);
+		model.addAttribute("name", "Sunny");
+		model.addAttribute("id", 1789);
 		
 		List<String> friends = new ArrayList<String>();
 		friends.add("Vandana");

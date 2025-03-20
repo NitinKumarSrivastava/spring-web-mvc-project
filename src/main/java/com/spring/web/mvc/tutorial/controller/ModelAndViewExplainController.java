@@ -19,8 +19,8 @@ public class ModelAndViewExplainController {
 		System.out.println("This is Help Controller called by ModelAndViewExplainController class.");
 		
 		ModelAndView mav = new ModelAndView();
-		mav.addObject("name", "Uttam");
-		mav.addObject("rollnumber", 123414);
+		mav.addObject("name", "Aditya");
+		mav.addObject("rollnumber", 123567);
 		
 		LocalDateTime nowTime = LocalDateTime.now();
 		mav.addObject("time", nowTime);
